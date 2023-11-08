@@ -1,7 +1,36 @@
+body {
+  background: rgb(0, 0, 0);
+}
+
 .nav-color-custom {
   background: linear-gradient(90deg, rgb(60, 56, 112) 0%, rgb(5, 180, 160) 41%, rgb(6, 153, 160) 63%, rgb(3, 183, 209) 83%, rgb(74, 129, 140) 100%);
 }
 
-.showcase-custom {
+.navbar-nav li a:hover {
+  color: white;
+}
+
+.custom-subscribe {
   background: linear-gradient(90deg, rgb(68, 56, 112) 0%, rgb(5, 88, 180) 41%, rgb(6, 118, 160) 63%, rgb(3, 135, 209) 83%, rgb(160, 148, 175) 100%);
+}
+
+.custom-subscribe button {
+  background: #000;
+  color: white;
+}
+
+@media (min-width-798px) {
+  .news-input {
+    width: 50%;
+  }
+}
+.custom-card {
+  background: linear-gradient(90deg, rgb(68, 56, 112) 0%, rgb(5, 88, 180) 41%, rgb(6, 118, 160) 63%, rgb(3, 135, 209) 83%, rgb(160, 148, 175) 100%);
+  border: 0 !important;
+  transition: opacity 1s ease 0s;
+  opacity: 0.9;
+}
+
+.custom-card:hover {
+  opacity: 1;
 }/*# sourceMappingURL=style.css.map */

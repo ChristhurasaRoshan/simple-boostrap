@@ -1,9 +1,52 @@
 @import "color";
 
+body {
+  background: rgb(0, 0, 0);
+}
 .nav-color-custom {
   background: $background-grade1;
 }
+.navbar-nav li a:hover {
+  color: white;
+}
+.custom-subscribe {
+  background: $background-grade2;
+}
 
-.showcase-custom{
-    background: $background-grade2;
+// .custom-subscribe button:hover {
+//   background: $background-grade2;
+//   transition: width 2s;
+// }
+.custom-subscribe button {
+  background: #000;
+  color: white;
+}
+
+// .btn-custom {
+//   background: $background-grade1;
+//   border: 0;
+//   color: #000;
+// }
+
+// .btn-custom:hover {
+//   background:white;
+//   color: #000;
+//   border: 1px solid;
+// }
+@media (min-width-798px) {
+  .news-input {
+    width: 50%;
+  }
+}
+
+.custom-card {
+  background: $background-grade2;
+  border: 0 !important;
+  transition: opacity 1s ease 0s;
+  opacity: 0.9;
+}
+.custom-card:hover {
+  opacity:1;
+  
+ 
 }
