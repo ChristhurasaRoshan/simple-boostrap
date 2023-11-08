@@ -1,0 +1,30 @@
+$primary-grade1-color: rgb(60, 56, 112);
+$secondary-grade1-color-1: rgba(5, 180, 160, 1);
+$secondary-grade1-color-2: rgba(6, 153, 160, 1);
+$secondary-grade1-color-3: rgba(3, 183, 209, 1);
+$secondary-grade1-color-4: rgba(74, 129, 140, 1);
+
+$background-grade1: linear-gradient(
+  90deg,
+  $primary-grade1-color 0%,
+  $secondary-grade1-color-1 41%,
+  $secondary-grade1-color-2 63%,
+  $secondary-grade1-color-3 83%,
+  $secondary-grade1-color-4 100%
+);
+
+
+$primary-grade2-color: rgb(68, 56, 112);
+$secondary-grade2-color-1: rgba(5, 88, 180, 1);
+$secondary-grade2-color-2: rgba(6, 118, 160, 1);
+$secondary-grade2-color-3: rgba(3, 135, 209, 1);
+$secondary-grade2-color-4: rgba(160, 148, 175, 1);
+
+$background-grade2: linear-gradient(
+  90deg,
+  $primary-grade2-color 0%,
+  $secondary-grade2-color-1 41%,
+  $secondary-grade2-color-2 63%,
+  $secondary-grade2-color-3 83%,
+  $secondary-grade2-color-4 100%
+);
